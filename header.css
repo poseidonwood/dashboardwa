@@ -1,0 +1,53 @@
+@media screen
+{
+   body
+   {
+      margin-left: 0px;
+      margin-top: 0px;
+      margin-right: 0px;
+      margin-bottom: 0px;
+      height: 100vh;
+      font-family: verdana,bitstream vera sans;
+      font-size: 11px;
+   }
+   #user_greeting
+   {
+      font-family: verdana,bitstream vera sans;
+      font-size: 12px;
+   }
+   #action_message
+   {
+      text-align:center;
+      font-family: verdana,bitstream vera sans;
+      font-size: 13px;
+      color: red;
+   }
+}
+
+@media print
+{
+   #header_separator
+   {
+      display: none;
+   }
+   #header_workspace
+   {
+      display: none;
+   }
+   #header_workspace_1
+   {
+      display: none;
+   }
+   #user_greeting
+   {
+      display: none;
+   }
+   #user_menu
+   {
+      display: none;
+   }
+   #action_message
+   {
+      display: none;
+   }
+}

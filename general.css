@@ -1,0 +1,156 @@
+@media screen
+{
+   .lookup_button {
+      border: 1px solid #006;
+      background: #9cf;
+   }
+   .textBox
+   {
+      font-family:Tahoma;
+      font-size:12px;
+   }
+   .addrbk,.kontakselect
+   {
+      background-color:#e0ebeb;
+      font-family:Tahoma;
+      font-size:12px;
+   }
+   .inventory_sku_lookup
+   {
+      background-color:#ecffe6;
+      font-family:Tahoma;
+      font-size:12px;
+   }
+   .dropDownList
+   {
+      font-family:Tahoma;
+      font-size:11px;
+   }
+   .button
+   {
+      font-family:Tahoma;
+      font-size:11px;
+   }
+   .window_border_bl
+   {
+      width: 11px;
+      height: 11px;
+      font-size: 1px;
+      background: url(images/bl.gif) 0 100% no-repeat;
+      z-index: 1;
+   }
+   .window_border_br
+   {
+      width: 11px;
+      height: 11px;
+      font-size: 1px;
+      background: url(images/br.gif) 100% 100% no-repeat;
+      z-index: 1;
+   }
+   .window_border_tl
+   {
+      width: 11px;
+      height: 11px;
+      font-size: 1px;
+      background: url(images/tl.gif) 0 0 no-repeat;
+      z-index: 1;
+   }
+   .window_border_tr
+   {
+      width: 11px;
+      height: 11px;
+      font-size: 1px;
+      background: url(images/tr.gif) 100% 0 no-repeat;
+      z-index: 1;
+   }
+.TblHeader
+{
+  font-weight:bold;
+  background-color: #003333;
+  color:white;
+}
+   .tr_style1
+   {
+      font-size: 14px;
+      color: white;
+      background-color: #304050;
+   }
+   .tr_style2
+   {
+      font-size: 12px;
+      background-color: #ffffff;
+   }
+   .tr_style3
+   {
+      font-size: 12px;
+      background-color: #E7E7E7;
+   }
+   .tr_style5
+   {
+      font: normal 12px Verdana, sans-serif;
+   }
+   .AutoCompleteBackground
+   {
+      font-family: verdana,bitstream vera sans;
+      font-size: 12px;
+	  background-color:#badcfe;
+   }
+   .AutoCompleteHighlight
+   {
+      font-family: verdana,bitstream vera sans;
+      font-size: 12px;
+      font-weight:bold;
+      color:white;
+	  background-color:#0033cc;
+   }
+   .home-background
+   {
+      background-color: #E4E4E4;
+      background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#E4E4E4), to(#E4E4E4), color-stop(.5,#BFBDBD));
+      background: -moz-linear-gradient(top, #E4E4E4 0%, #BFBDBD 50%, #E4E4E4 100%);
+   }
+   .rounded {
+	border-radius:15px;
+	-moz-border-radius:15px;
+	-webkit-border-radius:15px;
+   }
+}
+
+@media print
+{
+.TblHeader
+{
+  font-weight:bold;
+  background-color: #003333;
+  color:white;
+}
+   .tr_style1
+   {
+      font-size: 14pt;
+      color: white;
+      background-color: #304050;
+   }
+   .tr_style2
+   {
+      font-size: 12pt;
+      background-color: #ffffff;
+   }
+   .tr_style3
+   {
+      font-size: 12pt;
+      background-color: #E7E7E7;
+   }
+   .nonprinting
+   {
+      display: none;
+   }
+   .wrapper 
+   {
+      width: auto;
+      border: 0;
+      margin: 0 5%;
+      padding: 0;
+      float: none !important;
+    }
+  .pagebreak  { page-break-after:always; }
+}

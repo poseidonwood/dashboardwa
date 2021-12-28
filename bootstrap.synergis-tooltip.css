@@ -1,0 +1,13 @@
+.arrow:before
+{
+   border-bottom-color:#5cb85c !important;
+   border-top-color:#5cb85c !important;
+}
+.tooltip-inner
+{
+   background-color: #5cb85c;
+   color: #FFFFFF;
+   padding: 3px;
+   text-align: left;
+   font-family: Candara, Tahoma, Geneva, sans-serif;
+}
